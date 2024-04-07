@@ -14,7 +14,7 @@ function AboutSectionComponent({ Redux }) {
 
           <div className="flex flex-wrap -mx-4 -mb-10 text-center">
             <div className="p-4 md:w-1/2">
-              <div className="flex rounded-lg h-full bg-[#2C5F2D] dark:bg-[#FFE77A] text-[#FFE77A] dark:text-[#2C5F2D] bg-opacity-60 p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-[#008970] dark:bg-[#99EEDF] text-[#99EEDF] dark:text-[#008970] bg-opacity-60 p-8 flex-col">
                 <div className="rounded-lg h-64 overflow-hidden">
                   <img alt="content" className="object-cover object-center h-full w-full" src={Redux.state.ReceivedObject?.Retrieve?.AboutRetrieve?.actually?.image?.url} />
                 </div>
@@ -27,7 +27,7 @@ function AboutSectionComponent({ Redux }) {
               </div>
             </div>
             <div className="p-4 md:w-1/2">
-              <div className="flex rounded-lg h-full bg-[#2C5F2D] dark:bg-[#FFE77A] text-[#FFE77A] dark:text-[#2C5F2D] bg-opacity-60 p-8 flex-col">
+              <div className="flex rounded-lg h-full bg-[#008970] dark:bg-[#99EEDF] text-[#99EEDF] dark:text-[#008970] bg-opacity-60 p-8 flex-col">
                 <div className="rounded-lg h-64 overflow-hidden">
                   <img alt="content" className="object-cover object-center h-full w-full" src={Redux.state.ReceivedObject?.Retrieve?.AboutRetrieve?.comparatively?.image?.url} />
                 </div>

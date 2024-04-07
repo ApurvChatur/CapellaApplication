@@ -12,8 +12,8 @@ export default defineConfig({
         "name":"Capella Enterprise",
         "short_name":"Capella",
         "display": "standalone",
-        "background_color": "#2C5F2D",
-        "theme_color": "#2C5F2D",
+        "background_color": "#008970",
+        "theme_color": "#008970",
         "icons":[
           {
             src: "Business/Capella/favicon_io/android-chrome-512x512.png",

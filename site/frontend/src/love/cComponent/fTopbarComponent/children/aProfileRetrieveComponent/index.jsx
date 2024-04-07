@@ -23,7 +23,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
   // JSX
   return (
     <React.Fragment>
-      <section class="bg-[#FFE77A] dark:bg-[#2C5F2D] text-[#2C5F2D] dark:text-[#FFE77A] lg:px-20">
+      <section class="bg-[#99EEDF] dark:bg-[#008970] text-[#008970] dark:text-[#99EEDF] lg:px-20">
         <div class="container px-5 py-12 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg h-64 overflow-hidden">
@@ -46,7 +46,7 @@ const ProfileRetrieveComponent = ({ Redux }) => {
                     {Redux.state.ReceivedObject?.Retrieve?.firstName} {" "}
                     {Redux.state.ReceivedObject?.Retrieve?.lastName}
                   </h2>
-                  <div class="w-12 h-1 bg-[#2C5F2D] dark:bg-[#FFE77A] rounded mt-2 mb-4"></div>
+                  <div class="w-12 h-1 bg-[#008970] dark:bg-[#99EEDF] rounded mt-2 mb-4"></div>
                   <p class="text-base">{Redux.state.ReceivedObject?.Retrieve?.subtitle}</p>
                 </div>
               </div>
@@ -66,8 +66,8 @@ const ProfileRetrieveComponent = ({ Redux }) => {
           <div class="flex flex-wrap -m-4">
 
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-[#2C5F2D] dark:border-[#FFE77A] flex flex-col relative overflow-hidden">
-                <h1 class="text-2xl pb-4 mb-4 border-b border-[#2C5F2D] dark:border-[#FFE77A] leading-none">Critical Information</h1>
+              <div class="h-full p-6 rounded-lg border-2 border-[#008970] dark:border-[#99EEDF] flex flex-col relative overflow-hidden">
+                <h1 class="text-2xl pb-4 mb-4 border-b border-[#008970] dark:border-[#99EEDF] leading-none">Critical Information</h1>
 
                 <p class="font-bold">Profile Image:</p>
                 <p class="mb-2">
@@ -95,8 +95,8 @@ const ProfileRetrieveComponent = ({ Redux }) => {
             </div>
 
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-[#2C5F2D] dark:border-[#FFE77A] flex flex-col relative overflow-hidden">
-                <h1 class="text-2xl pb-4 mb-4 border-b border-[#2C5F2D] dark:border-[#FFE77A] leading-none">Basic Information</h1>
+              <div class="h-full p-6 rounded-lg border-2 border-[#008970] dark:border-[#99EEDF] flex flex-col relative overflow-hidden">
+                <h1 class="text-2xl pb-4 mb-4 border-b border-[#008970] dark:border-[#99EEDF] leading-none">Basic Information</h1>
 
                 <p class="font-bold">Cover Image:</p>
                 <p class="mb-2">
@@ -124,8 +124,8 @@ const ProfileRetrieveComponent = ({ Redux }) => {
             </div>
 
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-[#2C5F2D] dark:border-[#FFE77A] flex flex-col relative overflow-hidden">
-                <h1 class="text-2xl pb-4 mb-4 border-b border-[#2C5F2D] dark:border-[#FFE77A] leading-none">Relation Information</h1>
+              <div class="h-full p-6 rounded-lg border-2 border-[#008970] dark:border-[#99EEDF] flex flex-col relative overflow-hidden">
+                <h1 class="text-2xl pb-4 mb-4 border-b border-[#008970] dark:border-[#99EEDF] leading-none">Relation Information</h1>
                 
                 <p class="font-bold">Role:</p>
                 <p class="mb-2">{Redux.state.ReceivedObject?.Retrieve?.role?.aTitle}</p>
@@ -134,8 +134,8 @@ const ProfileRetrieveComponent = ({ Redux }) => {
             </div>
 
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-[#2C5F2D] dark:border-[#FFE77A] flex flex-col relative overflow-hidden">
-                <h1 class="text-2xl pb-4 mb-4 border-b border-[#2C5F2D] dark:border-[#FFE77A] leading-none">More Information</h1>
+              <div class="h-full p-6 rounded-lg border-2 border-[#008970] dark:border-[#99EEDF] flex flex-col relative overflow-hidden">
+                <h1 class="text-2xl pb-4 mb-4 border-b border-[#008970] dark:border-[#99EEDF] leading-none">More Information</h1>
 
                 <p class="font-bold">Address:</p>
                 <p class="mb-2">

@@ -91,15 +91,15 @@ const ChatPageComponent = ({ Redux, ReduxUltimate, APICalls, Function, socket })
   useSocketEvent(socket, eventHandler)
   
   return (
-    <div className="bg-[#ADEFD1] dark:bg-[#00203F] text-[#00203F] dark:text-[#ADEFD1] ">
+    <div className="bg-[#99EEDF] dark:bg-[#008970] text-[#008970] dark:text-[#99EEDF] ">
       <Suspense fallback={<Loader text="Suspense Boom Loading..." />}>
 
         <div 
           className="
             border flex-col md:flex
-            bg-[#ADEFD1] dark:bg-[#00203F]
-            border-[#00203F] dark:border-[#ADEFD1]
-            text-[#00203F] dark:text-[#ADEFD1]
+            bg-[#99EEDF] dark:bg-[#008970]
+            border-[#008970] dark:border-[#99EEDF]
+            text-[#008970] dark:text-[#99EEDF]
           "
         >
           <TooltipProvider delayDuration={0}>
@@ -336,7 +336,7 @@ const ChatPageComponent = ({ Redux, ReduxUltimate, APICalls, Function, socket })
                 </div>
 
                 {Redux.state.RequiredObject?.Loading ? "Loading..." : null}
-                <Separator className="bg-[#00203F] dark:bg-[#ADEFD1]" />
+                <Separator className="bg-[#008970] dark:bg-[#99EEDF]" />
 
                 <ScrollArea className="h-full rounded-md">
                   <ChatListComponent
@@ -535,7 +535,7 @@ const ChatPageComponent = ({ Redux, ReduxUltimate, APICalls, Function, socket })
                       </div>
                     </div>
 
-                    <Separator className="bg-[#00203F] dark:bg-[#ADEFD1]" />
+                    <Separator className="bg-[#008970] dark:bg-[#99EEDF]" />
                   
                     <ChatMessageRetrieveComponent Redux={Redux} ReduxUltimate={ReduxUltimate} socket={socket} APICalls={APICalls} />
                   </React.Fragment>
